@@ -270,7 +270,7 @@ class HoneycombLockscreen extends LinearLayout implements KeyguardScreen,
             Settings.System.LOCKSCREEN_MESSAGE, 1) != 1);
 
     private int mLockscreenStyle = (Settings.System.getInt(mContext.getContentResolver(),
-            Settings.System.LOCKSCREEN_STYLE_PREF, 11));
+            Settings.System.LOCKSCREEN_STYLE_PREF, 10));
 
     private boolean mUseCircularLockscreen =
         LockscreenStyle.getStyleById(mLockscreenStyle) == LockscreenStyle.Circular;
